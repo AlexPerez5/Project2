@@ -35,11 +35,16 @@ class Main {
             System.out.println("You like cats!");
           }
       
-      Scanner grade = new Scanner(System.in)
+      Scanner percentage = new Scanner(System.in);
       
-        System.out.println("What grade percentage is passing for you?")
-
-
+      System.out.println("What grade percentage is passing for you?");
+        int grade = scan.nextInt();
+        if(grade >= 70 && grade <= 100) {
+          System.out.println("That is in the passing range!");
+        }
+        else if(grade >= 0 && grade < 70) {
+          System.out.println("This is in the failing range!");
+        }
       }
     }
   }
