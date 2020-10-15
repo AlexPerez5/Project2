@@ -26,14 +26,15 @@ class Main {
         System.out.println("Which animal is better cats or dogs?"); //Third Question//
         String animal = scan.next();
 
-        if(animal == "dogs"){//if,else statement for cats and dogs//
+        if(animal.equals("dogs")) {//if,else statement for cats and dogs//
           for(int i = 0; i<3; i++){ //Loop code for both dogs are cats//
             System.out.println("You like dogs!");
           }
-          }else{
+        }else{
           for(int i = 0; i<3; i++){
             System.out.println("You like cats!");
           }
+        }
       
       Scanner percentage = new Scanner(System.in);
       
@@ -45,6 +46,5 @@ class Main {
         else if(grade >= 0 && grade < 70) {
           System.out.println("This is in the failing range!");
         }
-      }
-    }
   }
+}
