@@ -47,11 +47,14 @@ class Main {
           System.out.println("This is in the failing range!");
         }
 
-    Scanner inspiration = new Scanner(System.in);
+      Scanner inspiration = new Scanner(System.in);
     
-      System.out.println("Final question, what's one inspirational quote you'd say to people? "); //Last question//
-      String quote = scan.next();
-      quote += scan.nextLine(); //Code for multiple words//
+        System.out.println("Final question, what's one inspirational quote you'd say to   people? "); //Last question//
+       String quote = scan.next();
+        quote += scan.nextLine(); //Code for multiple words//
       
+       {
+       System.oout.println("Thank you for your participation" + name);//Ending sentence//
+    }
   }
 }
