@@ -54,7 +54,8 @@ class Main {
         quote += scan.nextLine(); //Code for multiple words//
       
        {
-       System.oout.println("Thank you for your participation" + name);//Ending sentence//
+       System.out.println("Thank you for your participation" + name);//Ending sentence//
+       System.out.println("END");
     }
   }
 }
