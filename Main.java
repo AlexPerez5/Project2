@@ -38,13 +38,18 @@ class Main {
       
       Scanner percentage = new Scanner(System.in);
       
-      System.out.println("What grade percentage is passing for you?");
+      System.out.println("What grade percentage is passing for you?"); //Fourth Question//
         int grade = scan.nextInt();
-        if(grade >= 70 && grade <= 100) {
+        if(grade >= 70 && grade <= 100) {//Passing grade loop//
           System.out.println("That is in the passing range!");
         }
-        else if(grade >= 0 && grade < 70) {
+        else if(grade >= 0 && grade < 70) {//Failing grade loop//
           System.out.println("This is in the failing range!");
         }
+
+    Scanner quote = new Scanner(System.in);
+    
+      System.out.println("Final question, what's one inspirational quote you'd say to people? ");
+      
   }
 }
