@@ -2,8 +2,8 @@ import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     //Beginning of Survey//
-      System.out.println("Hello, ");
-      System.out.println("Welcome to the MiniSurvey website!");
+        System.out.println("Hello, ");
+        System.out.println("Welcome to the MiniSurvey website!");
 
     //Scanner for main questions//
       Scanner scan = new Scanner(System.in);
@@ -46,16 +46,5 @@ class Main {
         else if(grade >= 0 && grade < 70) {//Failing grade loop//
           System.out.println("This is in the failing range!");
         }
-
-      Scanner inspiration = new Scanner(System.in);
-    
-        System.out.println("Final question, what's one inspirational quote you'd say to   people? "); //Last question//
-       String quote = scan.next();
-        quote += scan.nextLine(); //Code for multiple words//
-      
-       {
-       System.out.println("Thank you for your participation" + name);//Ending sentence//
-       System.out.println("END");
-    }
   }
 }
